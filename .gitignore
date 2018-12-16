@@ -1,0 +1,14 @@
+*.class
+.project
+.classpath
+
+# Mobile Tools for Java (J2ME)
+bin/
+build/
+.settings/
+.gradle/
+
+# Package Files #
+*.jar
+*.war
+*.ear
