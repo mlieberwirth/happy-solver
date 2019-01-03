@@ -18,4 +18,9 @@ class BinPackingSolutionImpl implements BinPackingSolution {
 	public List<Bin> getBinList() {
 		return binList;
 	}
+
+	@Override
+	public double getValue() {
+		return binList.size();
+	}
 }
