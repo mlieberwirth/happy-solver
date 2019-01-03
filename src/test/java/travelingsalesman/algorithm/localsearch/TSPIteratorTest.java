@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import travelingsalesman.api.TSPSolution;
 import travelingsalesman.api.Vertex;
-import travelingsalesman.api.core.TSPFactory;
+import travelingsalesman.core.TSPFactory;
 
 public class TSPIteratorTest {
 

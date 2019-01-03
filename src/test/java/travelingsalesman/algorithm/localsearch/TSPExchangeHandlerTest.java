@@ -12,7 +12,7 @@ import travelingsalesman.api.CostFunction;
 import travelingsalesman.api.Edge;
 import travelingsalesman.api.TSPSolution;
 import travelingsalesman.api.Vertex;
-import travelingsalesman.api.core.TSPFactory;
+import travelingsalesman.core.TSPFactory;
 
 public class TSPExchangeHandlerTest {
 

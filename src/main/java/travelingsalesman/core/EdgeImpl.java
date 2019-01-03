@@ -1,4 +1,4 @@
-package travelingsalesman.api.core;
+package travelingsalesman.core;
 
 import travelingsalesman.api.Edge;
 import travelingsalesman.api.Vertex;
