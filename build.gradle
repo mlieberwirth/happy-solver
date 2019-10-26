@@ -15,3 +15,7 @@ dependencies {
 repositories {
     jcenter()
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '5.0'
+}
