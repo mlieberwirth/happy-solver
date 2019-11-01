@@ -4,6 +4,6 @@
 
 What is BinPacking: https://en.wikipedia.org/wiki/Bin_packing_problem
 
-## Traveeling-Sales-Man
+## Travelling-Salesman
 
 What is TSP: https://en.wikipedia.org/wiki/Travelling_salesman_problem
