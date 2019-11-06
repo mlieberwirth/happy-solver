@@ -14,3 +14,4 @@ deploy:
   on:
     repo: mlieberwirth/happy-solver
     tags: true
+    branch: master
