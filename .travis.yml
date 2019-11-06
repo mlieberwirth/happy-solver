@@ -1,8 +1,16 @@
 language: java
 jdk:
-  - openjdk8
-
+- openjdk8
 before_script:
 - chmod a+x gradlew
-
-sccript: ./gradlew build
+sccript: "./gradlew build jar"
+deploy:
+  skip_cleanup: true
+  draft: true
+  provider: releases
+  api_key:
+    secure: CpBYG2TRSa/GS4btYx2i/4Tou/HixNIpoF9sCf2Io7oCj1cgk5LsH3dq/1XA24E2MdqnMod+wFCv1xYD5hlLfl3dRSYb8uI5ns4eFeZH72DNrnKyoIZjz9S2KITPcOKQOYq4SJzJLWL4wF+Y4d+VbL72F3yPuDDpNccZt6vp8qcdii+VilTMQ/B7b2nk9vXdrseEG7bBExynoS+eCVIssFz8LZ5qJE2JwamSMWkdDhv4r7ynoRHW3g0jlp6XUFF3fMbza3Q65Tw1RbWbEET+/iCsY3MCaBf1TSjJQ/kvj047u5oBC4kUIT2dFmEZrQvmSA+smUjpygRysOtSarm/vyb2NzFRpVIKYR/WneYIvqcaugNJUN4UgQCMPWVdkz86j8w+3z+847CI+RZYIGMFsfpB6zmGdL2Vvcr/fQ+L0efptPIDMCr84lJc9vSo1bB9cV4M+L9bZwsPquArg6qII1R0TOpNzLbLFrXSRyDDxCXBCu6SnxNDcdXloi025kd08rngwsbr+Zjxf04XoYQuBD74wg2WF6I7z0ViE9mvYU4QsQF/Ka1dHsc/tOQuf1sByFig0SmSAvwjRGlRLTsggbsf42ofmwxo1P4ZHRZFJt2zVrpv/0AumyXk1L4KWXEB9wCQIwQtTEXgzdvS044Bx6JZMYv75Nyysy6yAPmU45Y=
+  file: build/libs/*.jar
+  on:
+    repo: mlieberwirth/happy-solver
+    tags: true
