@@ -14,7 +14,7 @@ happy-solver/src/test/java/happysolver/XXX/algorithm/
 
 # Build and deploy
 For build and deployment we use travis-ci and we release all tagged commits from master.
-For more details see ``.travis.yml``
+For more details see ``.travis.yml`` or [Travis CI](https://travis-ci.org/mlieberwirth/happy-solver?utm_medium=notification&utm_source=github_status)
 
 # Implemented Solver
 
