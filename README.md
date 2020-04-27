@@ -1,5 +1,7 @@
 # Happy-solver 
 
+DEPRECATED USE https://gitlab.com/happy-solver
+
 [![Build Status](https://img.shields.io/travis/mlieberwirth/happy-solver.svg?label=Travis%20CI&logo=travis&style=flat-square)](https://travis-ci.org/mlieberwirth/happy-solver)&nbsp;
 
 It is a collection of solver and optimizations.
